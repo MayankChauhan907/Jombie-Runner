@@ -15,7 +15,8 @@ MonoBehaviour:
   _fpCamera: {fileID: 7564164413945755490}
   _shootingRange: 100
   _damage: 10
-  _muzzelFlashVFX: {fileID: 5994756537598983395}
+  _muzzelFlashVFX: {fileID: 6717896454039746490}
+  _hitVFX: {fileID: 2838154447381790828, guid: 9aa4d95214ca2114d8423063ce7218a9, type: 3}
 --- !u!1 &7564164413947393348
 GameObject:
   m_ObjectHideFlags: 0
@@ -28,6 +29,7 @@ GameObject:
   - component: {fileID: 7564164413942388258}
   - component: {fileID: 7564164413934155490}
   - component: {fileID: 7564164413936124070}
+  - component: {fileID: 3919446863124074717}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -149,6 +151,18 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &3919446863124074717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7564164413947393348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ddf8f46964d8b4d93b2fc1b7a65854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7564164413947393350
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,9 +443,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7564164414384604258}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &5994756537598983395 stripped
+--- !u!198 &6717896454039746490 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4307948381474535553, guid: ada2587319194f542957a8c2ae277cb9,
+  m_CorrespondingSourceObject: {fileID: 3874094371824382936, guid: ada2587319194f542957a8c2ae277cb9,
     type: 3}
   m_PrefabInstance: {fileID: 7564164414384604258}
   m_PrefabAsset: {fileID: 0}

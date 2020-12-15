@@ -272,7 +272,7 @@ Transform:
   - {fileID: 2337074158996965294}
   - {fileID: 2337074158996965288}
   - {fileID: 3760781081078919883}
-  - {fileID: 4307948381474535554}
+  - {fileID: 2996621065363739799}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -591,98 +591,78 @@ Transform:
   m_Father: {fileID: 2337074158996965286}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &8245093485277506710
+--- !u!1001 &570805922848481924
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 2337074158996965286}
     m_Modifications:
-    - target: {fileID: 5306538804102321169, guid: 01384c1bd43c09d4a8961ff6df54d270,
-        type: 3}
-      propertyPath: m_Name
-      value: MuzzelFlash
-      objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.215
+      value: 0.23139995
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0029000314
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.0020000415
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.71655774
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.6975278
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 91.54201
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+    - target: {fileID: 3360542172024696037, guid: 4a60d8477aafac045a1f56d3a60c7813,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.030587655
-      objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.030587655
-      objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.030587655
-      objectReference: {fileID: 0}
-    - target: {fileID: 5306538804102321175, guid: 01384c1bd43c09d4a8961ff6df54d270,
-        type: 3}
-      propertyPath: looping
-      value: 0
+      propertyPath: m_Name
+      value: Muzzle Flash VFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 01384c1bd43c09d4a8961ff6df54d270, type: 3}
---- !u!4 &4307948381474535554 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
+--- !u!4 &2996621065363739799 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5306538804102321172, guid: 01384c1bd43c09d4a8961ff6df54d270,
+  m_CorrespondingSourceObject: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813,
     type: 3}
-  m_PrefabInstance: {fileID: 8245093485277506710}
+  m_PrefabInstance: {fileID: 570805922848481924}
   m_PrefabAsset: {fileID: 0}

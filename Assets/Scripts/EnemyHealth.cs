@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float _hitPoints = 100f;
 
-    public void TaleDamage(float Damage)
+    public void TakeDamage(float Damage)
     {
         _hitPoints -= Damage;
         if (_hitPoints <= 0)
