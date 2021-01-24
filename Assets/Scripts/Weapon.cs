@@ -10,19 +10,35 @@ public class Weapon : MonoBehaviour
     [SerializeField] float _damage = 10f;
     [SerializeField] ParticleSystem _muzzelFlashVFX;
     [SerializeField] GameObject _hitVFX;
+    [SerializeField] AmmoType ammoType;
+    Ammo ammoSlot;
+    bool _canShoot = true;
+    [SerializeField] float _fireRate = 1;
+
+    private void Start()
+    {
+        ammoSlot = GetComponentInParent<Ammo>();
+    }
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetMouseButtonDown(0) && _canShoot)
         {
-            Shoot();
+            StartCoroutine(Shoot());
         }
     }
 
-    private void Shoot()
+    IEnumerator Shoot()
     {
-        PlayMuzzelFlash();
-        ProcessRaycast();
+        _canShoot = false;
+        if (ammoSlot.GetAmmoAmount(ammoType) > 0)
+        {
+            PlayMuzzelFlash();
+            ProcessRaycast();
+            ammoSlot.ReduceAmmo(ammoType);
+        }
+        yield return new WaitForSeconds(_fireRate);
+        _canShoot = true;
     }
 
     private void PlayMuzzelFlash()
